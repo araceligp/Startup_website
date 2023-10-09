@@ -114,7 +114,15 @@
         padding-top: 10rem;
         padding-bottom: 7rem;
     }
+/*
+    .menu-mobile{
+        visibility: hidden;
+        opacity: 0;
+    }
 
+    Esto lo hace rápido y raro en el vídeo y a mi me da errores
+
+*/
 }
 
 @media (max-width: 1000px){
