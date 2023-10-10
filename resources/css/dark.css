@@ -1,0 +1,57 @@
+/* VARIABLES */
+:root{
+    --mx-width: 1320px;
+    --color-text-body:#d3d3d4; 
+    --color-primary: #5956e9;
+    --color-secundary: #d3d3d4;
+    --color-banner: #27272e;
+    --color-textbtn: #fff;
+    --color-bg-btn: #2522ba;
+    --color-subtitle: #c75c6f;
+    --color-title: #d3d3d4; 
+    --color-bg-services:#27272E;
+    --color-bg-projects: #292930;
+    --color-bg-dark: #27272e;
+    --color-text-descrption: #99a1aa;
+    --color-hover-dark: #303035;
+    --color-borders: #393940;
+}
+
+body{
+    background-color: #212121;
+}
+
+.banner__bnt{
+    background-color: var(--color-primary);
+
+}
+
+.menu__navbar--fixed{
+    background-color: var(--color-banner);
+}
+
+.project__content{
+    background-color: var(--color-banner);
+}
+
+.layout__contact::before{
+    background-color: var(--color-banner);
+}
+
+.contact__subtitle{
+    color: #ffdc60;
+
+}
+
+.contact__btn{
+    background-color: var(--color-primary);
+}
+
+.fleft__group{
+    background-color: var(--color-bg-dark);
+    box-shadow: none;
+}
+
+.flet__form-control{
+    background-color: var(--color-bg-dark);
+}
