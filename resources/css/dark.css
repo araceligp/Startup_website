@@ -146,3 +146,8 @@ body{
 .news__new-shapes--shape3{
     opacity: 0.1;
 }
+
+.stats__stat:hover{
+    background: linear-gradient(180deg, var(--color-bg-dark), var(--color-bg-btn)350%);
+    border: 1px solid var(--color-primary);
+}
