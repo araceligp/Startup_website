@@ -142,3 +142,7 @@ body{
     background-color: var(--color-secundary);
 }
 
+.news__new-shapes--shape2,
+.news__new-shapes--shape3{
+    opacity: 0.1;
+}

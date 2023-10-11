@@ -18,7 +18,7 @@
 }
 /* ESTILOS GENERALES */
 html{
-    font-size: 10px;
+    font-size: 62.5%; /*equivale a 10px */
     overflow-x: hidden;
 }
 
