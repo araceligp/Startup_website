@@ -134,3 +134,11 @@ body{
     color: var(--color-hover-dark);
 }
 
+.mobile-btn__wrap{
+    background-color: var(--color-borders);
+}
+
+.mobile-btn__line{
+    background-color: var(--color-secundary);
+}
+

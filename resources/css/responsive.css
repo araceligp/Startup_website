@@ -228,6 +228,8 @@
 
     .stats__progress{
         flex-wrap: wrap;
+        justify-content: center;      
+
     }
 
     .stats__stat{
