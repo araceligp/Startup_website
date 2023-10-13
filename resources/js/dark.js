@@ -23,6 +23,26 @@ document.addEventListener("DOMContentLoaded", () =>{
             dark.style.display = "block";
             light.style.display = "none";
         }
+
+        let logoLight = document.querySelector('.navbar__logo-light');
+        let logoDark = document.querySelector('.navbar__logo-dark');
+        if (theme_dark) {
+            logoLight.style.display = "block";
+            logoDark.style.display = "none";
+        } else {
+            logoLight.style.display = "none";
+            logoDark.style.display = "block";
+        }
+
+        let logoLight1 = document.querySelector('.logo1');
+        let logoDark2 = document.querySelector('.logo2');
+        if (theme_dark) {
+            logoLight1.style.display = "block";
+            logoDark.style.display = "none";
+        } else {
+            logoLight1.style.display = "none";
+            logoDark2.style.display = "block";
+        }
         
     })
 })

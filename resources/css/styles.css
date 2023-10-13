@@ -68,6 +68,12 @@ body{
     width: 187px;
 }
 
+/* logos del estilo dark ocultos */
+.navbar__logo-dark,
+.logo2 {
+    display: none;
+}
+
 .nav__list{
     display: flex;
     flex-direction: row;
