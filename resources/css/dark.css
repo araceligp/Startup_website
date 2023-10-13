@@ -134,13 +134,7 @@ body{
     color: var(--color-hover-dark);
 }
 
-.mobile-btn__wrap{
-    background-color: var(--color-borders);
-}
 
-.mobile-btn__line{
-    background-color: var(--color-secundary);
-}
 
 .news__new-shapes--shape2,
 .news__new-shapes--shape3{
@@ -150,4 +144,28 @@ body{
 .stats__stat:hover{
     background: linear-gradient(180deg, var(--color-bg-dark), var(--color-bg-btn)350%);
     border: 1px solid var(--color-primary);
+}
+
+/* menu responsive */
+
+/* Estilos navegación responsive */
+
+.mobile-btn__wrap{
+    background-color: var(--color-borders);
+}
+
+.mobile-btn__line{
+    background-color: var(--color-secundary);
+}
+
+.menu-mobile{
+    background-color: var(--color-banner);
+    box-shadow: 0px 0px 85px -35px rgba(0, 0, 0, 0.5);
+    
+}
+
+.menu-mobile__close {
+    background-color: transparent;
+    border: 2px solid var(--color-borders);
+    color: var(--color-secundary);
 }
